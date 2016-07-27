@@ -20,7 +20,7 @@ $TCA['tt_calender'] = Array (
 			'0' => 'tt_calender.gif',
 			'1' => 'tt_calender_todo.gif'
 		),
-		'title' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender',
+		'title' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender',
 		'useColumnsForDefaultValues' => 'type',
 		'mainpalette' => 1,
 		'iconfile' => 'EXT:' . $_EXTKEY . '/ext_icon.gif',
@@ -34,11 +34,11 @@ $TCA['tt_calender_cat'] = Array (
 		'delete' => 'deleted',
 		'prependAtCopy' => 'LLL:EXT:lang/locallang_general.php:LGL.prependAtCopy',
 		'crdate' => 'crdate',
-		'title' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender_cat',
+		'title' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender_cat',
 		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php'
 	)
 );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender', '7'));
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender', '7'));
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tt_calender');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToInsertRecords('tt_calender');
 

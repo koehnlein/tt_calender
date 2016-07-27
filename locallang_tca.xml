@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'tt_content'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_calender">Calendar</label>
+			<label index="tt_calender.type.I.0">Calendar</label>
+			<label index="tt_calender.type.I.1">Todo</label>
+			<label index="tt_calender.date">Date:</label>
+			<label index="tt_calender.time">Time:</label>
+			<label index="tt_calender.week">Week:</label>
+			<label index="tt_calender.datetext">Datetext:</label>
+			<label index="tt_calender.complete">Finished:</label>
+			<label index="tt_calender.workgroup">Workgroup:</label>
+			<label index="tt_calender.priority">Priority:</label>
+			<label index="tt_calender.priority.I.0">High</label>
+			<label index="tt_calender.priority.I.1">Medium</label>
+			<label index="tt_calender.priority.I.2">Low</label>
+			<label index="tt_calender.responsible">Responsible:</label>
+			<label index="tt_calender.link">Link to page:</label>
+			<label index="tt_calender_cat">Calendar category</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<label index="tt_calender">Kalender</label>
+			<label index="tt_calender.type.I.0">Kalender</label>
+			<label index="tt_calender.type.I.1">Todo</label>
+			<label index="tt_calender.date">Dato:</label>
+			<label index="tt_calender.time">Tidspunkt:</label>
+			<label index="tt_calender.week">Uge:</label>
+			<label index="tt_calender.datetext">Datotekst:</label>
+			<label index="tt_calender.complete">Afsluttet:</label>
+			<label index="tt_calender.workgroup">Arbejdsgruppe:</label>
+			<label index="tt_calender.priority">Prioritet:</label>
+			<label index="tt_calender.priority.I.0">Høj</label>
+			<label index="tt_calender.priority.I.1">Mellem</label>
+			<label index="tt_calender.priority.I.2">Lav</label>
+			<label index="tt_calender.responsible">Ansvarlige:</label>
+			<label index="tt_calender.link">Link til side:</label>
+			<label index="tt_calender_cat">Kalender kategori</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_calender">Kalender</label>
+			<label index="tt_calender.type.I.0">Kalender</label>
+			<label index="tt_calender.type.I.1">Todo</label>
+			<label index="tt_calender.date">Datum:</label>
+			<label index="tt_calender.time">Zeit:</label>
+			<label index="tt_calender.week">Woche:</label>
+			<label index="tt_calender.datetext">Datumstext:</label>
+			<label index="tt_calender.complete">Ende:</label>
+			<label index="tt_calender.workgroup">Arbeitsgruppe:</label>
+			<label index="tt_calender.priority">Priorität:</label>
+			<label index="tt_calender.priority.I.0">Hoch</label>
+			<label index="tt_calender.priority.I.1">Mittel</label>
+			<label index="tt_calender.priority.I.2">Niedrig</label>
+			<label index="tt_calender.responsible">Verantwortlich:</label>
+			<label index="tt_calender.link">Link zur Seite:</label>
+			<label index="tt_calender_cat">Kalender Kategorie</label>
+		</languageKey>
+		<languageKey index="no" type="array">
+			<label index="tt_calender">Kalender</label>
+			<label index="tt_calender.type.I.0">Kalender</label>
+			<label index="tt_calender.type.I.1">Todo</label>
+			<label index="tt_calender.date">Dato:</label>
+			<label index="tt_calender.time">Tidspunkt:</label>
+			<label index="tt_calender.week">Uke:</label>
+			<label index="tt_calender.datetext">Datotekst:</label>
+			<label index="tt_calender.complete">Avslutt:</label>
+			<label index="tt_calender.workgroup">Arbeidsgruppe:</label>
+			<label index="tt_calender.priority">Prioritet:</label>
+			<label index="tt_calender.priority.I.0">Høy</label>
+			<label index="tt_calender.priority.I.1">Medium</label>
+			<label index="tt_calender.priority.I.2">Lav</label>
+			<label index="tt_calender.responsible">Ansvarlige:</label>
+			<label index="tt_calender.link">Link til side:</label>
+			<label index="tt_calender_cat">Kalender kategori</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="tt_calender">Calendario</label>
+			<label index="tt_calender.type.I.0">Calendario</label>
+			<label index="tt_calender.type.I.1">Da fare</label>
+			<label index="tt_calender.date">Data:</label>
+			<label index="tt_calender.time">Ora:</label>
+			<label index="tt_calender.week">Settimana:</label>
+			<label index="tt_calender.datetext">Data:</label>
+			<label index="tt_calender.complete">Finire:</label>
+			<label index="tt_calender.workgroup">Gruppo di lavoro:</label>
+			'tt_calender.priority' => 'Priorita\':',
+			<label index="tt_calender.priority.I.0">Alta</label>
+			<label index="tt_calender.priority.I.1">Media</label>
+			<label index="tt_calender.priority.I.2">Bassa</label>
+			<label index="tt_calender.responsible">Responsabile:</label>
+			<label index="tt_calender.link">Lonk alla pagina:</label>
+			<label index="tt_calender_cat">Categoria calendario</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tt_calender">Calendrier</label>
+			<label index="tt_calender.type.I.0">Calendrier</label>
+			<label index="tt_calender.type.I.1">A Faire</label>
+			<label index="tt_calender.date">Date:</label>
+			<label index="tt_calender.time">Temps:</label>
+			<label index="tt_calender.week">Semaine:</label>
+			<label index="tt_calender.datetext">Date:</label>
+			<label index="tt_calender.complete">Terminé:</label>
+			<label index="tt_calender.workgroup">Groupe de travail:</label>
+			<label index="tt_calender.priority">Priorité:</label>
+			<label index="tt_calender.priority.I.0">Haute</label>
+			<label index="tt_calender.priority.I.1">Moyenne</label>
+			<label index="tt_calender.priority.I.2">Basse</label>
+			<label index="tt_calender.responsible">Responsable:</label>
+			<label index="tt_calender.link">Liens vers la page:</label>
+			<label index="tt_calender_cat">Catégorie du calendrier</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="tt_calender">Calendario</label>
+			<label index="tt_calender.type.I.0">Calendario</label>
+			<label index="tt_calender.type.I.1">Pendiente</label>
+			<label index="tt_calender.date">Fecha:</label>
+			<label index="tt_calender.time">Hora:</label>
+			<label index="tt_calender.week">Semana:</label>
+			<label index="tt_calender.datetext">Texto:</label>
+			<label index="tt_calender.complete">Finalizar:</label>
+			<label index="tt_calender.workgroup">Grupo de trabajo:</label>
+			<label index="tt_calender.priority">Prioridad:</label>
+			<label index="tt_calender.priority.I.0">Alta</label>
+			<label index="tt_calender.priority.I.1">Media</label>
+			<label index="tt_calender.priority.I.2">Baja</label>
+			<label index="tt_calender.responsible">Responsable:</label>
+			<label index="tt_calender.link">Ligar a la página:</label>
+			<label index="tt_calender_cat">Categoría de calendario</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="tt_calender">Kalender</label>
+			<label index="tt_calender.type.I.0">Kalender</label>
+			<label index="tt_calender.type.I.1">TeDoen</label>
+			<label index="tt_calender.date">Datum:</label>
+			<label index="tt_calender.time">Tijd:</label>
+			<label index="tt_calender.week">Week:</label>
+			<label index="tt_calender.datetext">Datumtekst:</label>
+			<label index="tt_calender.complete">Geeindigd:</label>
+			<label index="tt_calender.workgroup">Werkgroep:</label>
+			<label index="tt_calender.priority">Prioriteit:</label>
+			<label index="tt_calender.priority.I.0">Hoog</label>
+			<label index="tt_calender.priority.I.1">Medium</label>
+			<label index="tt_calender.priority.I.2">Laag</label>
+			<label index="tt_calender.responsible">Verantwoordelijk:</label>
+			<label index="tt_calender.link">Link naar pagina:</label>
+			<label index="tt_calender_cat">Kalender categorie</label>
+		</languageKey>
+		<languageKey index="cz" type="array">
+			<label index="tt_calender">Kalendáø</label>
+			<label index="tt_calender.type.I.0">Kalendáø</label>
+			<label index="tt_calender.type.I.1">Úkoly</label>
+			<label index="tt_calender.date">Datum:</label>
+			<label index="tt_calender.time">Èas:</label>
+			<label index="tt_calender.week">Týden:</label>
+			<label index="tt_calender.datetext">Datumtext:</label>
+			<label index="tt_calender.complete">Dokonèeno:</label>
+			<label index="tt_calender.workgroup">Pracovní skupina:</label>
+			<label index="tt_calender.priority">Dùleitost:</label>
+			<label index="tt_calender.priority.I.0">Vysoká</label>
+			<label index="tt_calender.priority.I.1">Støední</label>
+			<label index="tt_calender.priority.I.2">Nízká</label>
+			<label index="tt_calender.responsible">Odpovìdný:</label>
+			<label index="tt_calender.link">Odkaz na stranu:</label>
+			<label index="tt_calender_cat">Kategorie kalendáøe</label>
+		</languageKey>
+		<languageKey index="pl" type="array">
+			<label index="tt_calender">Kalendarz</label>
+			<label index="tt_calender.type.I.0">Kalendarz</label>
+			<label index="tt_calender.type.I.1">Zadanie</label>
+			<label index="tt_calender.date">Data:</label>
+			<label index="tt_calender.time">Czas:</label>
+			<label index="tt_calender.week">Tydzieñ:</label>
+			<label index="tt_calender.datetext">Data tekstowo:</label>
+			<label index="tt_calender.complete">Zakoñczone:</label>
+			<label index="tt_calender.workgroup">Zespó³:</label>
+			<label index="tt_calender.priority">Priorytet:</label>
+			<label index="tt_calender.priority.I.0">Wysoki</label>
+			<label index="tt_calender.priority.I.1">¦redni</label>
+			<label index="tt_calender.priority.I.2">Niski</label>
+			<label index="tt_calender.responsible">Odpowiedzialny:</label>
+			<label index="tt_calender.link">Odno¶nik do strony:</label>
+			<label index="tt_calender_cat">Kategoria kalendarza</label>
+		</languageKey>
+		<languageKey index="si" type="array">
+			<label index="tt_calender">Koledar</label>
+			<label index="tt_calender.type.I.0">Koledar</label>
+			<label index="tt_calender.type.I.1">Naloge</label>
+			<label index="tt_calender.date">Datum:</label>
+			<label index="tt_calender.time">Ura:</label>
+			<label index="tt_calender.week">Teden:</label>
+			<label index="tt_calender.datetext">Datum z besedo:</label>
+			<label index="tt_calender.complete">Konèano:</label>
+			<label index="tt_calender.workgroup">Delovna skupina:</label>
+			<label index="tt_calender.priority">Prioriteta:</label>
+			<label index="tt_calender.priority.I.0">Visoka</label>
+			<label index="tt_calender.priority.I.1">Srednja</label>
+			<label index="tt_calender.priority.I.2">Nizka</label>
+			<label index="tt_calender.responsible">Odgovorna oseba:</label>
+			<label index="tt_calender.link">Povezava na stran:</label>
+			<label index="tt_calender_cat">Kalenteriluokka</label>
+		</languageKey>
+		<languageKey index="fi" type="array">
+			<label index="tt_calender">Kalenteri</label>
+			<label index="tt_calender.type.I.0">Kalenteri</label>
+			<label index="tt_calender.type.I.1">To-Do</label>
+			<label index="tt_calender.date">Päiväys:</label>
+			<label index="tt_calender.time">Kello:</label>
+			<label index="tt_calender.week">Viikko:</label>
+			<label index="tt_calender.datetext">Päiväyksen teksti:</label>
+			<label index="tt_calender.complete">Valmis:</label>
+			<label index="tt_calender.workgroup">Työryhmä:</label>
+			<label index="tt_calender.priority">Prioriteetti:</label>
+			<label index="tt_calender.priority.I.0">Korkea</label>
+			<label index="tt_calender.priority.I.1">Normaali</label>
+			<label index="tt_calender.priority.I.2">Matala</label>
+			<label index="tt_calender.responsible">Vastuullinen:</label>
+			<label index="tt_calender.link">Linkki sivulle:</label>
+			<label index="tt_calender_cat">Kalenteriluokka</label>
+		</languageKey>
+		<languageKey index="tr" type="array">
+			<label index="tt_calender">Takvim</label>
+			<label index="tt_calender.type.I.0">Takvim</label>
+			<label index="tt_calender.type.I.1">Yapýlacak iþler</label>
+			<label index="tt_calender.date">Tarih:</label>
+			<label index="tt_calender.time">Zaman:</label>
+			<label index="tt_calender.week">Hafta:</label>
+			<label index="tt_calender.datetext">Tarih metni:</label>
+			<label index="tt_calender.complete">Sonlandý:</label>
+			<label index="tt_calender.workgroup">Çalýþma grubu:</label>
+			<label index="tt_calender.priority">Öncelikli:</label>
+			<label index="tt_calender.priority.I.0">Yüksek</label>
+			<label index="tt_calender.priority.I.1">Orta</label>
+			<label index="tt_calender.priority.I.2">Düþük</label>
+			<label index="tt_calender.responsible">Sorumlu:</label>
+			<label index="tt_calender.link">Sayfaya link:</label>
+			<label index="tt_calender_cat">Takvim kategorisi</label>
+		</languageKey>
+		<languageKey index="se" type="array">
+		</languageKey>
+		<languageKey index="pt" type="array">
+			<label index="tt_calender">Calendário</label>
+			<label index="tt_calender.type.I.0">Calendário</label>
+			<label index="tt_calender.type.I.1">A-Fazer</label>
+			<label index="tt_calender.date">Data:</label>
+			<label index="tt_calender.time">Hora:</label>
+			<label index="tt_calender.week">Semana:</label>
+			<label index="tt_calender.datetext">TextoData:</label>
+			<label index="tt_calender.complete">Concluído:</label>
+			<label index="tt_calender.workgroup">Grupo de Trabalho:</label>
+			<label index="tt_calender.priority">Prioridade:</label>
+			<label index="tt_calender.priority.I.0">Alta</label>
+			<label index="tt_calender.priority.I.1">Média</label>
+			<label index="tt_calender.priority.I.2">Baixa</label>
+			<label index="tt_calender.responsible">Responsável:</label>
+			<label index="tt_calender.link">Ligar à página:</label>
+			<label index="tt_calender_cat">Categoria do Calendário</label>
+		</languageKey>
+	</data>
+</T3locallang>

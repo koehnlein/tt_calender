@@ -67,15 +67,15 @@ $TCA['tt_calender'] = Array (
 			'config' => Array (
 				'type' => 'select',
 				'items' => Array (
-					Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender.type.I.0', 0),
-					Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender.type.I.1', 1)
+					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.type.I.0', 0),
+					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.type.I.1', 1)
 				),
 				'default' => 0
 			)
 		),
 		'date' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.date',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.date',
 			'config' => Array (
 				'type' => 'input',
 				'size' => '10',
@@ -86,7 +86,7 @@ $TCA['tt_calender'] = Array (
 		),
 		'time' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.time',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.time',
 			'config' => Array (
 				'type' => 'input',
 				'size' => '10',
@@ -97,7 +97,7 @@ $TCA['tt_calender'] = Array (
 		),
 		'week' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.week',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.week',
 			'config' => Array (
 				'type' => 'input',
 				'size' => '6',
@@ -112,7 +112,7 @@ $TCA['tt_calender'] = Array (
 		),
 		'datetext' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.datetext',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.datetext',
 			'config' => Array (
 				'type' => 'input',
 				'size' => '40',
@@ -122,7 +122,7 @@ $TCA['tt_calender'] = Array (
 		),
 		'complete' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.complete',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.complete',
 			'config' => Array (
 				'type' => 'check',
 				'default' => '0'
@@ -130,7 +130,7 @@ $TCA['tt_calender'] = Array (
 		),
 		'workgroup' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.workgroup',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.workgroup',
 			'config' => Array (
 				'type' => 'input',
 				'size' => '40',
@@ -139,20 +139,20 @@ $TCA['tt_calender'] = Array (
 			)
 		),
 		'priority' => Array (
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.priority',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority',
 			'config' => Array (
 				'type' => 'select',
 				'items' => Array (
-					Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender.priority.I.0', 1),
-					Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender.priority.I.1', 3),
-					Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender.priority.I.2', 5)
+					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority.I.0', 1),
+					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority.I.1', 3),
+					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority.I.2', 5)
 				),
 				'default' => 3
 			)
 		),
 		'responsible' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.responsible',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.responsible',
 			'config' => Array (
 				'type' => 'group',
 				'internal_type' => 'db',
@@ -177,7 +177,7 @@ $TCA['tt_calender'] = Array (
 		),
 		'link' => Array (
 			'exclude' => 1,
-			'label' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender.link',
+			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.link',
 			'config' => Array (
 				'type' => 'group',
 				'internal_type' => 'db',
