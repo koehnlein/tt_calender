@@ -66,6 +66,7 @@ $TCA['tt_calender'] = Array (
 			'label' => 'LLL:EXT:lang/locallang_general.php:LGL.type',
 			'config' => Array (
 				'type' => 'select',
+				'renderType' => 'selectSingle',
 				'items' => Array (
 					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.type.I.0', 0),
 					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.type.I.1', 1)
@@ -142,6 +143,7 @@ $TCA['tt_calender'] = Array (
 			'label' => 'LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority',
 			'config' => Array (
 				'type' => 'select',
+				'renderType' => 'selectSingle',
 				'items' => Array (
 					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority.I.0', 1),
 					Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender.priority.I.1', 3),
@@ -169,6 +171,7 @@ $TCA['tt_calender'] = Array (
 			'label' => 'LLL:EXT:lang/locallang_general.php:LGL.category',
 			'config' => Array (
 				'type' => 'select',
+				'renderType' => 'selectSingle',
 				'items' => Array (
 					Array('', 0)
 				),
