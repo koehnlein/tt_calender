@@ -23,8 +23,8 @@ $TCA['tt_calender'] = Array (
 		'title' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender',
 		'useColumnsForDefaultValues' => 'type',
 		'mainpalette' => 1,
-		'iconfile' => t3lib_extMgm::extRelPath($_EXTKEY).'ext_icon.gif',
-		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY).'tca.php'
+		'iconfile' => 'EXT:' . $_EXTKEY . '/ext_icon.gif',
+		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php'
 	)
 );
 $TCA['tt_calender_cat'] = Array (
@@ -35,13 +35,13 @@ $TCA['tt_calender_cat'] = Array (
 		'prependAtCopy' => 'LLL:EXT:lang/locallang_general.php:LGL.prependAtCopy',
 		'crdate' => 'crdate',
 		'title' => 'LLL:EXT:tt_calender/locallang_tca.php:tt_calender_cat',
-		'dynamicConfigFile' => t3lib_extMgm::extPath($_EXTKEY).'tca.php'
+		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php'
 	)
 );
-t3lib_extMgm::addPlugin(Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender', '7'));
-t3lib_extMgm::allowTableOnStandardPages('tt_calender');
-t3lib_extMgm::addToInsertRecords('tt_calender');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(Array('LLL:EXT:tt_calender/locallang_tca.php:tt_calender', '7'));
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tt_calender');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToInsertRecords('tt_calender');
 
-t3lib_extMgm::addLLrefForTCAdescr('tt_calender','EXT:tt_calender/locallang_csh_ttcalen.php');
-t3lib_extMgm::addLLrefForTCAdescr('tt_calender_cat','EXT:tt_calender/locallang_csh_ttcalenc.php');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tt_calender','EXT:tt_calender/locallang_csh_ttcalen.php');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tt_calender_cat','EXT:tt_calender/locallang_csh_ttcalenc.php');
 ?>
