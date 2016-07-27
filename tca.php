@@ -190,8 +190,8 @@ $TCA['tt_calender'] = Array (
 		)
 	),
 	'types' => Array (
-		'0' => Array('showitem' => 'type;;;;1-1-1, hidden, date;;2;;3-3-3, title, note, category, --div--, datetext;;;;5-5-5, link'),
-		'1' => Array('showitem' => 'type;;;;1-1-1, hidden, date;;2;;3-3-3, title, note, category, --div--, complete;;;;5-5-5, priority, workgroup, responsible, link')
+		'0' => Array('showitem' => 'type;;;;1-1-1, hidden, date;;2;;3-3-3, title, note, category, --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_tca.xlf:pages.tabs.extended, datetext;;;;5-5-5, link'),
+		'1' => Array('showitem' => 'type;;;;1-1-1, hidden, date;;2;;3-3-3, title, note, category, --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_tca.xlf:pages.tabs.extended, complete;;;;5-5-5, priority, workgroup, responsible, link')
 	),
 	'palettes' => Array (
 		'1' => Array('showitem' => 'starttime, endtime'),
