@@ -38,10 +38,9 @@ $TCA['tt_calender_cat'] = Array (
 		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php'
 	)
 );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(Array('LLL:EXT:tt_calender/locallang_tca.xml:tt_calender', '7'));
+
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::allowTableOnStandardPages('tt_calender');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToInsertRecords('tt_calender');
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tt_calender','EXT:tt_calender/locallang_csh_ttcalen.php');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr('tt_calender_cat','EXT:tt_calender/locallang_csh_ttcalenc.php');
-?>
