@@ -193,12 +193,12 @@ $GLOBALS['TCA']['tt_calender'] = Array (
 		)
 	),
 	'types' => Array (
-		'0' => Array('showitem' => 'type;;;;1-1-1, hidden, date;;2;;3-3-3, title, note, category, datetext;;;;5-5-5, link'),
-		'1' => Array('showitem' => 'type;;;;1-1-1, hidden, date;;2;;3-3-3, title, note, category, complete;;;;5-5-5, priority, workgroup, responsible, link')
+		'0' => Array('showitem' => 'type, --palette--;;1, --palette--;;date, title, note, category, datetext, link'),
+		'1' => Array('showitem' => 'type, --palette--;;1, --palette--;;date, title, note, category, complete, priority, workgroup, responsible, link')
 	),
 	'palettes' => Array (
-		'1' => Array('showitem' => 'starttime, endtime'),
-		'2' => Array('showitem' => 'week,time')	//, month
+		'1' => Array('showitem' => 'hidden, starttime, endtime'),
+		'date' => Array('showitem' => 'date, --linebreak--, week, time')	//, month
 	)
 );
 
@@ -224,7 +224,7 @@ $GLOBALS['TCA']['tt_calender_cat'] = Array (
 		)
 	),
 	'types' => Array (
-		'0' => Array('showitem' => 'title;;;;3-3-3')
+		'0' => Array('showitem' => 'title')
 	)
 );
 
