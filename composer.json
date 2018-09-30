@@ -1,0 +1,11 @@
+{
+	"name": "koehnlein/tt-calender",
+	"type": "typo3-cms-extension",
+	"require": {
+		"typo3/cms-core": "^6.2 || ^7.6"
+	},
+	"replace": {
+		"typo3-ter/tt-calender": "self.version",
+		"tt_calender": "self.version"
+	}
+}
