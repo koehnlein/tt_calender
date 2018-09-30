@@ -4,8 +4,8 @@
 // ******************************************************************
 // This is the standard TypoScript calendar table, tt_calender
 // ******************************************************************
-$TCA['tt_calender'] = Array (
-	'ctrl' => $TCA['tt_calender']['ctrl'],
+$GLOBALS['TCA']['tt_calender'] = Array (
+	'ctrl' => $GLOBALS['TCA']['tt_calender']['ctrl'],
 	'interface' => Array (
 		'showRecordFieldList' => 'type,date,title,note,category,responsible,workgroup,time,week,hidden,starttime,endtime'
 	),
@@ -208,8 +208,8 @@ $TCA['tt_calender'] = Array (
 // ******************************************************************
 // This is the standard TypoScript calendar category table, tt_calender_cat
 // ******************************************************************
-$TCA['tt_calender_cat'] = Array (
-	'ctrl' => $TCA['tt_calender_cat']['ctrl'],
+$GLOBALS['TCA']['tt_calender_cat'] = Array (
+	'ctrl' => $GLOBALS['TCA']['tt_calender_cat']['ctrl'],
 	'interface' => Array (
 		'showRecordFieldList' => 'title'
 	),

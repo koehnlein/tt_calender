@@ -1,7 +1,7 @@
 <?php
 if (!defined ('TYPO3_MODE')) 	die ('Access denied.');
 
-$TCA['tt_calender'] = Array (
+$GLOBALS['TCA']['tt_calender'] = Array (
 	'ctrl' => Array (
 		'label' => 'title',
 		'default_sortby' => 'ORDER BY date',
@@ -27,7 +27,7 @@ $TCA['tt_calender'] = Array (
 		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'tca.php'
 	)
 );
-$TCA['tt_calender_cat'] = Array (
+$GLOBALS['TCA']['tt_calender_cat'] = Array (
 	'ctrl' => Array (
 		'label' => 'title',
 		'tstamp' => 'tstamp',
